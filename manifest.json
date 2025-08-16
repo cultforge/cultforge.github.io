@@ -5,11 +5,11 @@
         "@meta" : {
             "Aetherion" : {
                 "version" : "1.0",
-                "url" : ""
+                "url" : "https://cultforge.github.io/props.json"
             },
             "Kythera Modpack" : {
                 "version" : "1.0",
-                "url" : ""
+                "url" : "https://cultforge.github.io/props.json"
             },
             "1.20.1" : {
                 "version" : "1.20.1",
