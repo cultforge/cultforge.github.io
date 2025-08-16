@@ -1,0 +1,30 @@
+{
+    "nemesisx0.aternos.me" :{
+        "require" : ["Aetherion", "Kythera Modpack", "1.20.1"],
+        "version" : "1.20.1",
+        "@meta" : {
+            "Aetherion" : {
+                "version" : "1.0",
+                "url" : ""
+            },
+            "Kythera Modpack" : {
+                "version" : "1.0",
+                "url" : ""
+            },
+            "1.20.1" : {
+                "version" : "1.20.1",
+                "url" : "self"
+            }
+        }
+    },
+    "arcade_0717.aternos.me" : {
+        "require" : ["1.21.8"],
+        "version" : ["1.21.8"],
+        "@meta"   : {
+            "1.21.8" : {
+                "version" : "1.20.1",
+                "url" : "self"
+            }
+        }
+    }
+}
