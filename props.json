@@ -1,1 +1,15 @@
-
+{
+    "@builds" : {
+        "Aetherion" : {
+            "1.0" : {
+                "name" : "Aetherion 1.0",
+                "id"   : ""
+            }
+        }
+    },
+    "@packages" : {
+        "Kythera Modpack" : {
+            "1.0" : ""
+        }
+    }
+}
