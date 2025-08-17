@@ -3,13 +3,13 @@
         "Aetherion" : {
             "1.0" : {
                 "name" : "Aetherion 1.0",
-                "id"   : ""
+                "id"   : "0B-XWv_NopeJleXRTSC1raFlZWjg"
             }
         }
     },
     "@packages" : {
         "Kythera Modpack" : {
-            "1.0" : ""
+            "1.0" : "0B-XWv_NopeJleXRTSC1raFlZWjg"
         }
     }
 }
