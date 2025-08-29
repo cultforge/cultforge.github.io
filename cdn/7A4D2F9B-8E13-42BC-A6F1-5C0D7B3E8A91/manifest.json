@@ -6,16 +6,16 @@
     "kythera.deaths" : "5",
     "$" : {
         "1" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Stone pickaxe (5)",
+            "reward" : "N/A"
         },
         "2" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Torch (50)",
+            "reward" : "N/A"
         },
         "3" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Cook Chicken (15)",
+            "reward" : "N/A"
         }
     },
     "kythera.username" : "Asus"

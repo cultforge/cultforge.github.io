@@ -6,16 +6,16 @@
     "kythera.deaths" : "N/A",
     "$" : {
         "1" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Iron pickaxe (2)",
+            "reward" : "N/A"
         },
         "2" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Colelct Coal (25)",
+            "reward" : "N/A"
         },
         "3" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Cook Chicken (15)",
+            "reward" : "N/A"
         }
     },
     "kythera.username" : "himansh"

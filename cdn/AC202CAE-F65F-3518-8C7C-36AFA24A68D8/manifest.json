@@ -6,16 +6,16 @@
     "kythera.deaths" : "22",
     "$" : {
         "1" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Make Charcoal (10)",
+            "reward" : "N/A"
         },
         "2" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Stone pickaxe (3)",
+            "reward" : "N/A"
         },
         "3" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Torch (10)",
+            "reward" : "N/A"
         }
     },
     "kythera.username" : "GliTCH"

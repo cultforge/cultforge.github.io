@@ -6,16 +6,16 @@
     "kythera.deaths" : "4",
     "$" : {
         "1" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Iron pickaxe (3)",
+            "reward" : "N/A"
         },
         "2" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Torch (10)",
+            "reward" : "N/A"
         },
         "3" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Collect Oak logs (64)",
+            "reward" : "N/A"
         }
     },
     "kythera.username" : "Revanth"

@@ -6,16 +6,16 @@
     "kythera.deaths" : "3",
     "$" : {
         "1" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Collect Gunpowder (5)",
+            "reward" : "N/A"
         },
         "2" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Torch (10)",
+            "reward" : "N/A"
         },
         "3" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Cook Chicken (15)",
+            "reward" : "N/A"
         }
     },
     "kythera.username" : "asvla"

@@ -6,16 +6,16 @@
     "kythera.deaths" : "2",
     "$" : {
         "1" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Collect Dirt (64)",
+            "reward" : "N/A"
         },
         "2" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Torch (10)",
+            "reward" : "N/A"
         },
         "3" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Cook Steak (5)",
+            "reward" : "N/A"
         }
     },
     "kythera.username" : "ASUS"

@@ -6,16 +6,16 @@
     "kythera.deaths" : "",
     "$" : {
         "1" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Stone pickaxe (8)",
+            "reward" : "N/A"
         },
         "2" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Mine Coal (50)",
+            "reward" : "N/A"
         },
         "3" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Stone Axe (5)",
+            "reward" : "N/A"
         }
     },
     "kythera.username" : "Lohith"

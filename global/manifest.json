@@ -1,9 +1,10 @@
 {
     "!" : {
-        "title"  : "",
-        "diffi"  : "",
-        "tier"   : "",
-        "reward" : "",
-        "timer"  : ""
-    }
+        "title"  : "Iron ore (Large)",
+        "diffi"  : "???",
+        "tier"   : "???",
+        "reward" : "???",
+        "timer"  : "Unlocks on Saturday (11AM IST)"
+    },
+    "goal" : ["IFE", "-EQ", "WG"]
 }

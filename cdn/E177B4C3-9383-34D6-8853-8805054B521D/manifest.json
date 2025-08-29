@@ -6,16 +6,16 @@
     "kythera.deaths" : "0",
     "$" : {
         "1" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Sheild (6)",
+            "reward" : "N/A"
         },
         "2" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Torch (10)",
+            "reward" : "N/A"
         },
         "3" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Farm wheat (15)",
+            "reward" : "N/A"
         }
     },
     "kythera.username" : "kanch"

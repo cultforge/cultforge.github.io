@@ -6,16 +6,16 @@
     "kythera.deaths" : "3",
     "$" : {
         "1" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Stone pickaxe (7)",
+            "reward" : "N/A"
         },
         "2" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Forge Torch (20)",
+            "reward" : "N/A"
         },
         "3" : {
-            "title"  : "",
-            "reward" : ""
+            "title"  : "Create Chest (3)",
+            "reward" : "N/A"
         }
     },
     "kythera.username" : "Ninja_Devil"
