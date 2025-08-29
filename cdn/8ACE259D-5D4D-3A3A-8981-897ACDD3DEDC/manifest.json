@@ -1,0 +1,22 @@
+{
+    "kythera.level" : "5",
+    "kythera.tier" : "Kindle",
+    "kythera.playtime" : "8h 56m",
+    "kythera.distance" : "40.3K",
+    "kythera.deaths" : "",
+    "$" : {
+        "1" : {
+            "title"  : "",
+            "reward" : ""
+        },
+        "2" : {
+            "title"  : "",
+            "reward" : ""
+        },
+        "3" : {
+            "title"  : "",
+            "reward" : ""
+        }
+    },
+    "kythera.username" : "Lohith"
+}

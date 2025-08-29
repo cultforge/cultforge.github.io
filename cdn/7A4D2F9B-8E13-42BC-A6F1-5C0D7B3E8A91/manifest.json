@@ -1,0 +1,22 @@
+{
+    "kythera.level" : "8",
+    "kythera.tier" : "Kindle",
+    "kythera.playtime" : "3h 58m",
+    "kythera.distance" : "29.1K",
+    "kythera.deaths" : "5",
+    "$" : {
+        "1" : {
+            "title"  : "",
+            "reward" : ""
+        },
+        "2" : {
+            "title"  : "",
+            "reward" : ""
+        },
+        "3" : {
+            "title"  : "",
+            "reward" : ""
+        }
+    },
+    "kythera.username" : "Asus"
+}

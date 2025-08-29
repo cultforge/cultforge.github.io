@@ -1,0 +1,22 @@
+{
+    "kythera.level" : "0",
+    "kythera.tier" : "Kindle",
+    "kythera.playtime" : "0",
+    "kythera.distance" : "0",
+    "kythera.deaths" : "N/A",
+    "$" : {
+        "1" : {
+            "title"  : "",
+            "reward" : ""
+        },
+        "2" : {
+            "title"  : "",
+            "reward" : ""
+        },
+        "3" : {
+            "title"  : "",
+            "reward" : ""
+        }
+    },
+    "kythera.username" : "himansh"
+}

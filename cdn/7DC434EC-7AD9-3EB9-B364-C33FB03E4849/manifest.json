@@ -1,0 +1,22 @@
+{
+    "kythera.level" : "1",
+    "kythera.tier" : "Kindle",
+    "kythera.playtime" : "1h 30m",
+    "kythera.distance" : "6K",
+    "kythera.deaths" : "3",
+    "$" : {
+        "1" : {
+            "title"  : "",
+            "reward" : ""
+        },
+        "2" : {
+            "title"  : "",
+            "reward" : ""
+        },
+        "3" : {
+            "title"  : "",
+            "reward" : ""
+        }
+    },
+    "kythera.username" : "Ninja_Devil"
+}
