@@ -1,7 +1,7 @@
 {
     "!" : {
         "title"  : "Iron ore (Large)",
-        "diffi"  : "Normal",
+        "difficulty"  : "Normal",
         "tier"   : "Kindle",
         "reward" : "12 Iron Ingots",
         "timer"  : "Unlocks on Saturday (11AM IST)"
