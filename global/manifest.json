@@ -6,7 +6,7 @@
         "reward" : "12 Iron Ingots",
         "timer"  : "Unlocks on Saturday (11AM IST)"
     },
-    "goal" : ["???", "???", "???"],
+    "goal" : ["488", "-48", "24"],
     "leaderboard" : {
         "1" : ["./images/stes/b8db33aac0c054847700220f8f641e3ef936145d.gif", "GliTCH", "16","98.2K", "22", "21h 0m"],
         "2" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Lohith", "5","40.3K", "14", "8h 56m"],
