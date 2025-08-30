@@ -1,19 +1,19 @@
 {
     "!" : {
-        "title"  : "Iron ore (Large)",
-        "difficulty"  : "Normal",
-        "tier"   : "Kindle",
-        "reward" : "12 Iron Ingots",
-        "timer"  : "Quest Started (new quest on Sunday 12AM IST)"
+        "title"  : "?????",
+        "difficulty"  : "Impossible",
+        "tier"   : "Forge",
+        "reward" : "1 Diamond axe",
+        "timer"  : "Unlocks on Sunday 12AM IST"
     },
-    "goal" : ["488", "-48", "24"],
+    "goal" : ["???", "???", "???"],
     "leaderboard" : {
-        "1" : ["./images/stes/b8db33aac0c054847700220f8f641e3ef936145d.gif", "GliTCH", "16","98.2K", "22", "21h 0m"],
-        "2" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Lohith", "5","40.3K", "14", "8h 56m"],
+        "1" : ["./images/stes/b8db33aac0c054847700220f8f641e3ef936145d.gif", "GliTCH", "16","118.7K", "24", "26h 14m"],
+        "2" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Lohith", "5","40.3K", "27", "11h 32m"],
         "3" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Asus", "8","29.1K", "5", "3h 58m"],
         "4" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Revanth", "5","12.1K", "4", "2h 52m"],
-        "5" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "asvla", "2","9.8K", "3", "3h 59m"],
-        "6" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Ninja_Devil", "1","6K", "2", "1h 30m"],
+        "5" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Ninja_Devil", "2","11.5K", "6", "2h 49m"],
+        "6" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "asvla", "2","9.8K", "3", "3h 59m"],
         "7" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "ASUS", "2","6K", "2", "1h 14m"],
         "8" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "kanch", "0","913", "0", "9m"],
         "9" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "himansh", "0","0", "0", "0"]
