@@ -1,12 +1,12 @@
 {
-    "kythera.level" : "1",
+    "kythera.level" : "4",
     "kythera.tier" : "Kindle",
-    "kythera.playtime" : "1h 30m",
-    "kythera.distance" : "6K",
-    "kythera.deaths" : "3",
+    "kythera.playtime" : "3h 28m",
+    "kythera.distance" : "13.5K",
+    "kythera.deaths" : "6",
     "$" : {
         "1" : {
-            "title"  : "Forge Stone pickaxe (7)",
+            "title"  : "Craft wool & carpets (16)",
             "reward" : "N/A"
         },
         "2" : {
@@ -14,7 +14,7 @@
             "reward" : "N/A"
         },
         "3" : {
-            "title"  : "Create Chest (3)",
+            "title"  : "Forge Iron Axe and Sword (3",
             "reward" : "N/A"
         }
     },

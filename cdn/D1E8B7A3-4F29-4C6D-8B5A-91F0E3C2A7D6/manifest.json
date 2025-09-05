@@ -1,22 +1,22 @@
 {
-    "kythera.level" : "2",
+    "kythera.level" : "5",
     "kythera.tier" : "Kindle",
-    "kythera.playtime" : "3h 59m",
-    "kythera.distance" : "9.8K",
-    "kythera.deaths" : "3",
+    "kythera.playtime" : "2h 20m",
+    "kythera.distance" : "14.9K",
+    "kythera.deaths" : "2",
     "$" : {
         "1" : {
-            "title"  : "Collect Gunpowder (5)",
+            "title"  : "Craft wool & carpets (50)",
             "reward" : "N/A"
         },
         "2" : {
-            "title"  : "Forge Torch (10)",
+            "title"  : "Hunt Sheeps (50)",
             "reward" : "N/A"
         },
         "3" : {
-            "title"  : "Cook Chicken (15)",
+            "title"  : "Cook Mutton (50)",
             "reward" : "N/A"
         }
     },
-    "kythera.username" : "asvla"
+    "kythera.username" : "srikar"
 }

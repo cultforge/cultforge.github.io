@@ -1,20 +1,20 @@
 {
-    "kythera.level" : "5",
+    "kythera.level" : "18",
     "kythera.tier" : "Kindle",
-    "kythera.playtime" : "8h 56m",
-    "kythera.distance" : "40.3K",
-    "kythera.deaths" : "14",
+    "kythera.playtime" : "11h 48m",
+    "kythera.distance" : "50.5K",
+    "kythera.deaths" : "27",
     "$" : {
         "1" : {
-            "title"  : "Forge Stone pickaxe (8)",
+            "title"  : "Forge Iron pickaxe (8)",
             "reward" : "N/A"
         },
         "2" : {
-            "title"  : "Mine Coal (50)",
+            "title"  : "Hunt Sheeps (100)",
             "reward" : "N/A"
         },
         "3" : {
-            "title"  : "Forge Stone Axe (5)",
+            "title"  : "Craft wool & carpets (50)",
             "reward" : "N/A"
         }
     },

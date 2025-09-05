@@ -1,20 +1,20 @@
 {
-    "kythera.level" : "16",
-    "kythera.tier" : "Forged",
-    "kythera.playtime" : "21h 01m",
-    "kythera.distance" : "98.2K",
-    "kythera.deaths" : "22",
+    "kythera.level" : "31",
+    "kythera.tier" : "Vanguard",
+    "kythera.playtime" : "27h 59m",
+    "kythera.distance" : "125.2K",
+    "kythera.deaths" : "26",
     "$" : {
         "1" : {
-            "title"  : "Make Charcoal (10)",
+            "title"  : "N/A",
             "reward" : "N/A"
         },
         "2" : {
-            "title"  : "Forge Stone pickaxe (3)",
+            "title"  : "N/A",
             "reward" : "N/A"
         },
         "3" : {
-            "title"  : "Forge Torch (10)",
+            "title"  : "N/A",
             "reward" : "N/A"
         }
     },
