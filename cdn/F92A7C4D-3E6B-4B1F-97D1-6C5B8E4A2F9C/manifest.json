@@ -1,9 +1,9 @@
 {
-    "kythera.level" : "0",
+    "kythera.level" : "35",
     "kythera.tier" : "Kindle",
-    "kythera.playtime" : "0",
-    "kythera.distance" : "0",
-    "kythera.deaths" : "N/A",
+    "kythera.playtime" : "3hr 17min",
+    "kythera.distance" : "19.6K",
+    "kythera.deaths" : "15",
     "$" : {
         "1" : {
             "title"  : "Forge Iron pickaxe (2)",
@@ -18,5 +18,5 @@
             "reward" : "N/A"
         }
     },
-    "kythera.username" : "himansh"
+    "kythera.username" : "himan"
 }
