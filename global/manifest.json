@@ -8,9 +8,9 @@
     },
     "goal" : ["???", "???", "???"],
     "leaderboard" : {
-        "1" : ["./images/stes/2162c6ecc245c34e619e969eb43156abc5af6e65.gif", "GliTCH", "SSS","SSS", "SSS", "SSS"],
-        "2" : ["./images/stes/bc977e6f2634272519d99c369e27b6c0f4f2b542.gif", "himan", "SS","SS", "SS", "SS"],
-        "3" : ["./images/stes/2460370e1a8b51cb0cc288eeabbc5e1d519d81d2.gif", "Lohith", "S+","S+", "S+", "S+"],
+        "1" : ["./images/stes/2162c6ecc245c34e619e969eb43156abc5af6e65.gif", "GliTCH", "SSS","N/A", "N/A", "N/A"],
+        "2" : ["./images/stes/bc977e6f2634272519d99c369e27b6c0f4f2b542.gif", "himan", "SS","N/A", "N/A", "N/A"],
+        "3" : ["./images/stes/2460370e1a8b51cb0cc288eeabbc5e1d519d81d2.gif", "Lohith", "S+","N/A", "N/A", "N/A"],
         "4" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "srikar", "0","0", "0", "0"],
         "5" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Ninja_Devil", "0","0", "0", "0"],
         "6" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Revanth", "0","0", "0", "0"],
