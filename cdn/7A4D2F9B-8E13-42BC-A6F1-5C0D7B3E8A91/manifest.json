@@ -1,20 +1,20 @@
 {
-    "kythera.level" : "9",
+    "kythera.level" : "1",
     "kythera.tier" : "Kindle",
-    "kythera.playtime" : "3h 58m",
-    "kythera.distance" : "29.1K",
-    "kythera.deaths" : "5",
+    "kythera.playtime" : "0",
+    "kythera.distance" : "0",
+    "kythera.deaths" : "0",
     "$" : {
         "1" : {
-            "title"  : "Forge Stone pickaxe (5)",
+            "title"  : "N/A",
             "reward" : "N/A"
         },
         "2" : {
-            "title"  : "Forge Torch (50)",
+            "title"  : "N/A",
             "reward" : "N/A"
         },
         "3" : {
-            "title"  : "Cook Chicken (15)",
+            "title"  : "N/A",
             "reward" : "N/A"
         }
     },

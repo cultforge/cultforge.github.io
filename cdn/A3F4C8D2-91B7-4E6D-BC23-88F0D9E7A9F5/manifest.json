@@ -1,20 +1,20 @@
 {
-    "kythera.level" : "6",
+    "kythera.level" : "1",
     "kythera.tier" : "Kindle",
-    "kythera.playtime" : "2h 57m",
-    "kythera.distance" : "12.4K",
-    "kythera.deaths" : "4",
+    "kythera.playtime" : "0",
+    "kythera.distance" : "0",
+    "kythera.deaths" : "0",
     "$" : {
         "1" : {
-            "title"  : "Forge Iron pickaxe (3)",
+            "title"  : "N/A",
             "reward" : "N/A"
         },
         "2" : {
-            "title"  : "Make Charcoal (10)",
+            "title"  : "N/A",
             "reward" : "N/A"
         },
         "3" : {
-            "title"  : "Collect Oak logs (32)",
+            "title"  : "N/A",
             "reward" : "N/A"
         }
     },

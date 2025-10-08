@@ -1,21 +1,21 @@
 {
     "!" : {
         "title"  : "New Home",
-        "difficulty"  : "Easy",
+        "difficulty"  : "Unknown",
         "tier"   : "Kindle",
-        "reward" : "Iron armor set",
-        "timer"  : "(New event on 21-Sep-2025)"
+        "reward" : "Iron Pickaxe",
+        "timer"  : "Currently Playing"
     },
-    "goal" : ["-6127", "104", "4551"],
+    "goal" : ["???", "???", "???"],
     "leaderboard" : {
-        "1" : ["./images/stes/6af7bb1928af5bff4f953a6fcf85a9ca61f9af3a.gif", "GliTCH", "35","151.5K", "32", "33h 29m"],
-        "2" : ["./images/stes/6af7bb1928af5bff4f953a6fcf85a9ca61f9af3a.gif", "himan", "30","19.6K", "15", "3hr 17min"],
-        "3" : ["./images/stes/b8db33aac0c054847700220f8f641e3ef936145d.gif", "Lohith", "18","50.5K", "27", "11h 48m"],
-        "4" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "srikar", "5","14.9K", "2", "2h 20m"],
-        "5" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Ninja_Devil", "4","13.5K", "6", "3h 28m"],
-        "6" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Revanth", "6","12.4K", "4", "2h 57m"],
-        "7" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "ASUS", "3","6K", "2", "1h 14m"],
-        "8" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "kanch", "0","913", "0", "9m"],
-        "9" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Asus", "9","29.1K", "5", "3h 58m"]
+        "1" : ["./images/stes/2162c6ecc245c34e619e969eb43156abc5af6e65.gif", "GliTCH", "SSS","SSS", "SSS", "SSS"],
+        "2" : ["./images/stes/bc977e6f2634272519d99c369e27b6c0f4f2b542.gif", "himan", "SS","SS", "SS", "SS"],
+        "3" : ["./images/stes/2460370e1a8b51cb0cc288eeabbc5e1d519d81d2.gif", "Lohith", "S+","S+", "S+", "S+"],
+        "4" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "srikar", "0","0", "0", "0"],
+        "5" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Ninja_Devil", "0","0", "0", "0"],
+        "6" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Revanth", "0","0", "0", "0"],
+        "7" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "ASUS", "0","0", "0", "0"],
+        "8" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "kanch", "0","0", "0", "0"],
+        "9" : ["./images/stes/79666d8b16737fc758ddbbe27fe33115654868df.gif", "Asus", "0","0", "0", "0"]
     }
 }

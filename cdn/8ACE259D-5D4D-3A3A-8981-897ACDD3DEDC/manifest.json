@@ -1,20 +1,20 @@
 {
-    "kythera.level" : "18",
-    "kythera.tier" : "Forged",
-    "kythera.playtime" : "11h 48m",
-    "kythera.distance" : "50.5K",
-    "kythera.deaths" : "27",
+    "kythera.level" : "9",
+    "kythera.tier" : "MVP of the Season",
+    "kythera.playtime" : "0",
+    "kythera.distance" : "0",
+    "kythera.deaths" : "0",
     "$" : {
         "1" : {
-            "title"  : "Forge Iron pickaxe (8)",
+            "title"  : "N/A",
             "reward" : "N/A"
         },
         "2" : {
-            "title"  : "Hunt Sheeps (100)",
+            "title"  : "N/A",
             "reward" : "N/A"
         },
         "3" : {
-            "title"  : "Craft wool & carpets (50)",
+            "title"  : "N/A",
             "reward" : "N/A"
         }
     },

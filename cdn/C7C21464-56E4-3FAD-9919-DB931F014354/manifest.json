@@ -1,20 +1,20 @@
 {
-    "kythera.level" : "3",
+    "kythera.level" : "1",
     "kythera.tier" : "Kindle",
-    "kythera.playtime" : "1h 14m",
-    "kythera.distance" : "6K",
-    "kythera.deaths" : "2",
+    "kythera.playtime" : "0",
+    "kythera.distance" : "0",
+    "kythera.deaths" : "0",
     "$" : {
         "1" : {
-            "title"  : "Collect Dirt (64)",
+            "title"  : "N/A",
             "reward" : "N/A"
         },
         "2" : {
-            "title"  : "Forge Torch (10)",
+            "title"  : "N/A",
             "reward" : "N/A"
         },
         "3" : {
-            "title"  : "Cook Steak (5)",
+            "title"  : "N/A",
             "reward" : "N/A"
         }
     },
