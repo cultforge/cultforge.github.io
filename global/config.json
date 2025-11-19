@@ -1,0 +1,39 @@
+{
+    "version": "1.3.1",
+    "servers": {
+        "nemesisx0.aternos.me": {
+            "port": "56612",
+            "id": 1,
+            "version": "Netherite 1.0 | Forge 1.20.1",
+            "tags": [
+                "Survival",
+                "Adventure",
+                "Exploration"
+            ]
+        },
+        "arcade_0717.aternos.me": {
+            "port": 41775,
+            "id": 2,
+            "version": "Vanilla 1.21.8",
+            "tags": [
+                "Survival"
+            ]
+        },
+        "glitch_0717.aternos.me": {
+            "port": 40196,
+            "id": 3,
+            "version": "Vanilla 1.21.8",
+            "tags": [
+                "Survival"
+            ]
+        }
+    },
+    "resources": {
+        "server-images": {
+            "1": "fcbe856d4fe2223b9d6b690507d376225fb1d868",
+            "2": "252708ec2d6e4f12de19595a0eaa2b171f1580d9",
+            "3": "94b5e85ffa1c036f6064ab6f4ef97be40909bf94",
+            "4": "a60507a8a436e71fc409cac75c4da335a9239861"
+        }
+    }
+}
