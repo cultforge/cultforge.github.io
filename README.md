@@ -1,1 +1,1 @@
-# cultforge.github.io
+[Click Here to Continue](https://cultfg.github.io/)
