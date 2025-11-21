@@ -4,6 +4,14 @@
         "resource-packs": {},
         "mods": {}
     },
+    "files" : {
+        "nemesisx0.aternos.me" : {
+            "server-file" : "26658373c36eb875085247620619edd84705cbba.dat"
+        }
+    },
+    "builds" : {
+        "Aetherion-1.0" : "nemesisx0.aternos.me"
+    },
     "news": {},
     "shoutouts": {}
 }

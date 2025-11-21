@@ -1,0 +1,9 @@
+{
+    "nemesisx0.aternos.me" : {
+        "host"   : "nemesisx0.aternos.me",
+        "port"   : "56612",
+        "build"  : "Aetherion-1.0",
+        "build-url"  : null,
+        "build-hash" : null
+    }
+}
