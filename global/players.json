@@ -12,7 +12,8 @@
             "ram" : "24GB DDR5 5600 MT/s",
             "gpu" : "Nvidia GeForce RTX 5060 8GB GDDR7"
         },
-        "uid" : "AC202CAE-F65F-3518-8C7C-36AFA24A68D8"
+        "uid" : "AC202CAE-F65F-3518-8C7C-36AFA24A68D8",
+        "tag" : "Admin & Dev"
     },
     "himan" : {
         "level"  : 21,
@@ -27,7 +28,8 @@
             "ram" : "16GB DDR5 4800 MT/s",
             "gpu" : "Nvidia GeForce RTX 3060 6GB GDDR4"
         },
-        "uid" : "F92A7C4D-3E6B-4B1F-97D1-6C5B8E4A2F9C"
+        "uid" : "F92A7C4D-3E6B-4B1F-97D1-6C5B8E4A2F9C",
+        "tag" : "Co-Dev | Support"
     },
     "Ninja_Devil" : {
         "level"  : 1,
@@ -42,7 +44,8 @@
             "ram" : "24GB DDR4 3200 MT/s",
             "gpu" : "Nvidia GeForce GTX 1650 4GB GDDR4"
         },
-        "uid" : "7DC434EC-7AD9-3EB9-B364-C33FB03E4849"
+        "uid" : "7DC434EC-7AD9-3EB9-B364-C33FB03E4849",
+        "tag" : "Player"
     },
     "Bunny" : {
         "level"  : 1,
@@ -57,7 +60,8 @@
             "ram" : "16GB DDR4 3200 MT/s",
             "gpu" : "Nvidia GeForce RTX 3050 4GB GDDR4"
         },
-        "uid" : "8ACE259D-5D4D-3A3A-8981-897ACDD3DEDC"
+        "uid" : "8ACE259D-5D4D-3A3A-8981-897ACDD3DEDC",
+        "tag" : "Master Minner"
     },
     "Revanth" : {
         "level"  : 1,
@@ -72,7 +76,8 @@
             "ram" : "???",
             "gpu" : "???"
         },
-        "uid" : "A3F4C8D2-91B7-4E6D-BC23-88F0D9E7A9F5"
+        "uid" : "A3F4C8D2-91B7-4E6D-BC23-88F0D9E7A9F5",
+        "tag" : "Player"
     },
     "srikar" : {
         "level"  : 1,
@@ -87,7 +92,8 @@
             "ram" : "???",
             "gpu" : "???"
         },
-        "uid" : "D1E8B7A3-4F29-4C6D-8B5A-91F0E3C2A7D6"
+        "uid" : "D1E8B7A3-4F29-4C6D-8B5A-91F0E3C2A7D6",
+        "tag" : "Player"
     },
     "Nick" : {
         "level"  : 1,
@@ -102,7 +108,8 @@
             "ram" : "???",
             "gpu" : "Nvidia GeForce RTX 4060 8GB GDDR4"
         },
-        "uid" : "E177B4C3-9383-34D6-8853-8805054B521D"
+        "uid" : "E177B4C3-9383-34D6-8853-8805054B521D",
+        "tag" : "Player"
     },
     "Somu" : {
         "level"  : 1,
@@ -117,7 +124,8 @@
             "ram" : "16GB DDR5 4600 MT/s",
             "gpu" : "Nvidia GeForce RTX 3050 4GB GDDR4"
         },
-        "uid" : "C7C21464-56E4-3FAD-9919-DB931F014354"
+        "uid" : "C7C21464-56E4-3FAD-9919-DB931F014354",
+        "tag" : "Player"
     },
     "Pranay" : {
         "level"  : 1,
@@ -132,6 +140,7 @@
             "ram" : "???",
             "gpu" : "???"
         },
-        "uid" : "7A4D2F9B-8E13-42BC-A6F1-5C0D7B3E8A91"
+        "uid" : "7A4D2F9B-8E13-42BC-A6F1-5C0D7B3E8A91",
+        "tag" : "Player"
     }
 }
