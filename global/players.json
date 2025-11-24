@@ -25,7 +25,7 @@
         "specs" : {
             "cpu" : "???",
             "ram" : "16GB DDR5 4800 MT/s",
-            "gpu" : "Nvidia GeForce RTX 3060 6GB GDDR5"
+            "gpu" : "Nvidia GeForce RTX 3060 6GB GDDR4"
         },
         "uid" : "F92A7C4D-3E6B-4B1F-97D1-6C5B8E4A2F9C"
     },
@@ -98,9 +98,9 @@
         "distance" : "0",
         "username" : "Nick",
         "specs" : {
-            "cpu" : "???",
+            "cpu" : "Intel i7 14th Gen",
             "ram" : "???",
-            "gpu" : "???"
+            "gpu" : "Nvidia GeForce RTX 4060 8GB GDDR4"
         },
         "uid" : "E177B4C3-9383-34D6-8853-8805054B521D"
     },
@@ -113,9 +113,9 @@
         "distance" : "0",
         "username" : "Somu",
         "specs" : {
-            "cpu" : "???",
-            "ram" : "???",
-            "gpu" : "???"
+            "cpu" : "Ryzen 7 6000S",
+            "ram" : "16GB DDR5 4600 MT/s",
+            "gpu" : "Nvidia GeForce RTX 3050 4GB GDDR4"
         },
         "uid" : "C7C21464-56E4-3FAD-9919-DB931F014354"
     },
