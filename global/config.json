@@ -34,6 +34,10 @@
             "2": "252708ec2d6e4f12de19595a0eaa2b171f1580d9",
             "3": "94b5e85ffa1c036f6064ab6f4ef97be40909bf94",
             "4": "a60507a8a436e71fc409cac75c4da335a9239861"
+        },
+        "tier-gifs" : {
+            "abyssal.gif" : "ed88cffe34b6e07d96ad607eec1a92fa74abfc27",
+            "ascendant.gif" : "90aa6f0802bf588244e77da61a345b02613a9351"
         }
     }
 }
