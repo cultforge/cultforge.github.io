@@ -1,11 +1,11 @@
 {
     "GliTCH" : {
-        "level"  : 42,
+        "level"  : 39,
         "tier"   : "Vanguard",
-        "kills"  : 98,
-        "deaths" : 45,
-        "playtime" : 1362,
-        "distance" : "68K",
+        "kills"  : 107,
+        "deaths" : 47,
+        "playtime" : 1888,
+        "distance" : "103.7K",
         "username" : "GliTCH",
         "specs" : {
             "cpu" : "Intel Core 7 240H",
@@ -16,12 +16,12 @@
         "tag" : "Admin & Dev"
     },
     "himan" : {
-        "level"  : 26,
-        "tier"   : "Forged",
-        "kills"  : 55,
-        "deaths" : 52,
-        "playtime" : 833,
-        "distance" : "45.4K",
+        "level"  : 31,
+        "tier"   : "Vanguard",
+        "kills"  : 63,
+        "deaths" : 68,
+        "playtime" : 1344,
+        "distance" : "70K",
         "username" : "himan",
         "specs" : {
             "cpu" : "???",
