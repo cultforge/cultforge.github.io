@@ -1,11 +1,11 @@
 {
     "GliTCH" : {
-        "level"  : 39,
-        "tier"   : "Vanguard",
-        "kills"  : 107,
-        "deaths" : 47,
-        "playtime" : 1888,
-        "distance" : "103.7K",
+        "level"  : 27,
+        "tier"   : "Forged",
+        "kills"  : 62,
+        "deaths" : 3,
+        "playtime" : 136,
+        "distance" : "8K",
         "username" : "GliTCH",
         "specs" : {
             "cpu" : "Intel Core 7 240H",
@@ -15,13 +15,29 @@
         "uid" : "AC202CAE-F65F-3518-8C7C-36AFA24A68D8",
         "tag" : "Admin & Dev"
     },
+    "Somu" : {
+        "level"  : 2,
+        "tier"   : "Kindle",
+        "kills"  : 0,
+        "deaths" : 2,
+        "playtime" : 41,
+        "distance" : "1.1K",
+        "username" : "Somu",
+        "specs" : {
+            "cpu" : "Ryzen 7 6000S",
+            "ram" : "16GB DDR5 4600 MT/s",
+            "gpu" : "Nvidia GeForce RTX 3050 4GB GDDR4"
+        },
+        "uid" : "C7C21464-56E4-3FAD-9919-DB931F014354",
+        "tag" : "Player"
+    },
     "himan" : {
-        "level"  : 31,
-        "tier"   : "Vanguard",
-        "kills"  : 63,
-        "deaths" : 68,
-        "playtime" : 1344,
-        "distance" : "70K",
+        "level"  : 1,
+        "tier"   : "Kindle",
+        "kills"  : 0,
+        "deaths" : 0,
+        "playtime" : 0,
+        "distance" : "0",
         "username" : "himan",
         "specs" : {
             "cpu" : "???",
@@ -109,22 +125,6 @@
             "gpu" : "Nvidia GeForce RTX 4060 8GB GDDR4"
         },
         "uid" : "E177B4C3-9383-34D6-8853-8805054B521D",
-        "tag" : "Player"
-    },
-    "Somu" : {
-        "level"  : 1,
-        "tier"   : "Kindle",
-        "kills"  : 0,
-        "deaths" : 0,
-        "playtime" : 0,
-        "distance" : "0",
-        "username" : "Somu",
-        "specs" : {
-            "cpu" : "Ryzen 7 6000S",
-            "ram" : "16GB DDR5 4600 MT/s",
-            "gpu" : "Nvidia GeForce RTX 3050 4GB GDDR4"
-        },
-        "uid" : "C7C21464-56E4-3FAD-9919-DB931F014354",
         "tag" : "Player"
     },
     "Pranay" : {
