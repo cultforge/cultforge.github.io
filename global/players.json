@@ -1,11 +1,11 @@
 {
     "GliTCH" : {
-        "level"  : 27,
-        "tier"   : "Forged",
-        "kills"  : 62,
-        "deaths" : 3,
-        "playtime" : 136,
-        "distance" : "8K",
+        "level"  : 38,
+        "tier"   : "Vanguard",
+        "kills"  : 83,
+        "deaths" : 12,
+        "playtime" : 411,
+        "distance" : "17.7K",
         "username" : "GliTCH",
         "specs" : {
             "cpu" : "Intel Core 7 240H",
@@ -14,6 +14,22 @@
         },
         "uid" : "AC202CAE-F65F-3518-8C7C-36AFA24A68D8",
         "tag" : "Admin & Dev"
+    },
+    "himan" : {
+        "level"  : 28,
+        "tier"   : "Forged",
+        "kills"  : 37,
+        "deaths" : 33,
+        "playtime" : 452,
+        "distance" : "17.9K",
+        "username" : "himan",
+        "specs" : {
+            "cpu" : "???",
+            "ram" : "16GB DDR5 4800 MT/s",
+            "gpu" : "Nvidia GeForce RTX 3060 6GB GDDR4"
+        },
+        "uid" : "F92A7C4D-3E6B-4B1F-97D1-6C5B8E4A2F9C",
+        "tag" : "Co-Dev | Support"
     },
     "Somu" : {
         "level"  : 2,
@@ -30,22 +46,6 @@
         },
         "uid" : "C7C21464-56E4-3FAD-9919-DB931F014354",
         "tag" : "Player"
-    },
-    "himan" : {
-        "level"  : 1,
-        "tier"   : "Kindle",
-        "kills"  : 0,
-        "deaths" : 0,
-        "playtime" : 0,
-        "distance" : "0",
-        "username" : "himan",
-        "specs" : {
-            "cpu" : "???",
-            "ram" : "16GB DDR5 4800 MT/s",
-            "gpu" : "Nvidia GeForce RTX 3060 6GB GDDR4"
-        },
-        "uid" : "F92A7C4D-3E6B-4B1F-97D1-6C5B8E4A2F9C",
-        "tag" : "Co-Dev | Support"
     },
     "Ninja_Devil" : {
         "level"  : 1,
