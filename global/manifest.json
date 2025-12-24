@@ -33,5 +33,6 @@
         },
         "news" : ""
     },
-    "skip-recipe" : true
+    "skip-recipe" : true,
+    "ui" : null
 }
