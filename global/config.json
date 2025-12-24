@@ -39,5 +39,6 @@
             "abyssal.gif" : "ed88cffe34b6e07d96ad607eec1a92fa74abfc27",
             "ascendant.gif" : "90aa6f0802bf588244e77da61a345b02613a9351"
         }
-    }
+    },
+    "skip-recipe" : true
 }
