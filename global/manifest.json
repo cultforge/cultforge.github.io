@@ -32,5 +32,6 @@
             }
         },
         "news" : ""
-    }
+    },
+    "skip-recipe" : true
 }
