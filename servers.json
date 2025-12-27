@@ -1,9 +1,23 @@
 {
-    "nemesisx0.aternos.me" : {
-        "host"   : "nemesisx0.aternos.me",
-        "port"   : "56612",
-        "build"  : "Aetherion-1.0",
-        "build-url"  : null,
-        "build-hash" : null
+    "nemesisx0.aternos.me": {
+        "host": "nemesisx0.aternos.me",
+        "port": "56612",
+        "build": "Aetherion-1.0",
+        "build-url": null,
+        "build-hash": null,
+        "id": "aetherion",
+        "serverid" : 1
+    },
+    "arcade_0717.aternos.me": {
+        "host": "arcade_0717.aternos.me",
+        "port": "41775",
+        "id": "classic",
+        "serverid" : 2
+    },
+    "glitch_0717.aternos.me": {
+        "host": "glitch_0717.aternos.me",
+        "port": "40196",
+        "id": "classic",
+        "serverid" : 3
     }
 }
