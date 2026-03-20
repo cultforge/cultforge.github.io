@@ -1,1 +1,27 @@
-{}
+{
+    "data" : {
+        "news" : {
+            "CultForge v1.3.2 Released!" : {
+                "desc" : "Massive UI overhaul, pure OLED blacks, and a brand new community profile page. Download the update today to experience the fastest launcher engine we have ever built.",
+                "cont" : "https://cultforge.github.io/assets/md/1.3.2/001.md",
+                "type" : "Release Notes",
+                "icon" : "ph-rocket-launch",
+                "tags" : ["v1.3.2", [2026, 3, 28]]
+            }
+        },
+        "servers" : {
+            "CULTFORGE" : {
+                "host" : "ctforge.aternos.me",
+                "port" : "41051"
+            },
+            "CLASSIC-v1" : {
+                "host" : "glitch_0717.aternos.me",
+                "port" : "44271"
+            },
+            "CLASSIC-v2" : {
+                "host" : "arcade_0717.aternos.me",
+                "port" : "30292"
+            }
+        }
+    }
+}
