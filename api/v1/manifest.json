@@ -11,16 +11,33 @@
         },
         "servers" : {
             "CULTFORGE" : {
-                "host" : "ctforge.aternos.me",
-                "port" : "41051"
+                "host"  : "ctforge.aternos.me",
+                "port"  : "41051",
+                "build" : "aetherion-2.0"
             },
             "CLASSIC-v1" : {
                 "host" : "glitch_0717.aternos.me",
-                "port" : "44271"
+                "port" : "44271",
+                "build" : "classic-v1"
             },
             "CLASSIC-v2" : {
                 "host" : "arcade_0717.aternos.me",
-                "port" : "30292"
+                "port" : "30292",
+                "build" : "classic-v2"
+            }
+        },
+        "builds" : {
+            "aetherion-2.0" : {
+                "rec.alloc" : "10GB",
+                "base" : "Forge 1.20.1"
+            },
+            "classic-v1" : {
+                "rec.alloc" : "8GB",
+                "base" : "Vanilla 1.21.8"
+            },
+            "classic-v2" : {
+                "rec.alloc" : "8GB",
+                "base" :"Vanilla 1.21.11"
             }
         }
     }
