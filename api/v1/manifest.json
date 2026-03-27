@@ -13,17 +13,23 @@
             "CULTFORGE" : {
                 "host"  : "ctforge.aternos.me",
                 "port"  : "41051",
-                "build" : "aetherion-2.0"
+                "build" : "aetherion-2.0",
+                "desc"  : "A nominal server running our Aetherion 2.0",
+                "img"   : "https://cultforge.github.io/images/launcher/cultforge.png"
             },
             "CLASSIC-v1" : {
                 "host" : "glitch_0717.aternos.me",
                 "port" : "44271",
-                "build" : "classic-v1"
+                "build" : "classic-v1",
+                "desc"  : "A legacy version",
+                "img"   : "https://cultforge.github.io/images/launcher/classic-v1.png"
             },
             "CLASSIC-v2" : {
                 "host" : "arcade_0717.aternos.me",
                 "port" : "30292",
-                "build" : "classic-v2"
+                "build" : "classic-v2",
+                "desc"  : "A new version of the classic minecraft",
+                "img"   : "https://cultforge.github.io/images/launcher/classic-v2.png"
             }
         },
         "builds" : {
