@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CultForge | Community Minecraft Launcher</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: #0B0B10;
+            color: #F2F3FF;
+            overflow-x: hidden;
+        }
+
+        ::selection {
+            background-color: #7A2CFF;
+            color: white;
+        }
+
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+
+        .mockup-card {
+            transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+            transform: rotateY(-10deg) rotateX(5deg);
+        }
+
+        .mockup-card:hover {
+            transform: rotateY(0deg) rotateX(0deg);
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .animate-float {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen">
+
+    <div class="fixed inset-0 z-0 pointer-events-none">
+        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#0B0B10] to-[#141422]"></div>
+        <div class="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] bg-[#7A2CFF]/10 blur-[120px] rounded-full"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[60%] bg-[#FF2BD6]/10 blur-[150px] rounded-full">
+        </div>
+    </div>
+
+    <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300 bg-transparent py-6">
+        <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+            <div class="flex items-center gap-3 cursor-pointer group">
+                <div
+                    class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#FF2BD6] to-[#7A2CFF] flex items-center justify-center shadow-[0_0_15px_rgba(255,43,214,0.4)] group-hover:rotate-12 transition-transform">
+                    <i class="ph-fill ph-game-controller text-white text-2xl"></i>
+                </div>
+                <span class="text-2xl font-black tracking-tight">Cult<span
+                        class="text-transparent bg-clip-text bg-gradient-to-r from-[#7A2CFF] to-[#FF2BD6]">Forge</span></span>
+            </div>
+
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#features"
+                    class="text-[#B8B6CC] hover:text-[#C9A7FF] font-medium transition-colors">Features</a>
+                <!-- <a href="#modpacks" class="text-[#B8B6CC] hover:text-[#C9A7FF] font-medium transition-colors">Modpacks</a> -->
+                <a href="#community"
+                    class="text-[#B8B6CC] hover:text-[#C9A7FF] font-medium transition-colors">Community</a>
+                <a href="https://discord.gg/bUBbhV9x" target="_blank"
+                    class="text-[#F2F3FF] font-medium hover:text-[#FF2BD6] transition-colors flex items-center gap-2">
+                    <i class="ph ph-globe text-lg"></i> Join Discord
+                </a>
+            </div>
+
+            <button id="menuBtn" class="md:hidden text-[#F2F3FF] hover:text-[#FF2BD6]">
+                <i id="menuIcon" class="ph ph-list text-3xl"></i>
+            </button>
+        </div>
+
+        <div id="mobileMenu"
+            class="hidden absolute top-full left-0 w-full bg-[#141422] border-b border-[#1E1B2E] flex flex-col py-4 px-6 gap-4 md:hidden shadow-2xl">
+            <a href="#features" class="mobile-link text-[#F2F3FF] text-lg py-2 border-b border-[#1E1B2E]">Features</a>
+            <!-- <a href="#modpacks" class="mobile-link text-[#F2F3FF] text-lg py-2 border-b border-[#1E1B2E]">Modpacks</a> -->
+            <a href="#community" class="mobile-link text-[#F2F3FF] text-lg py-2 border-b border-[#1E1B2E]">Community</a>
+            <a href="#download" class="mobile-link text-[#FF2BD6] font-bold text-lg py-2">Download Now</a>
+        </div>
+    </nav>
+
+    <main class="relative z-10 pt-32 pb-20">
+
+        <section
+            class="max-w-7xl mx-auto px-6 lg:min-h-[80vh] flex flex-col lg:flex-row items-center justify-between gap-12">
+
+            <div class="flex-1 text-center lg:text-left pt-10 lg:pt-0">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1E1B2E] border border-[#7A2CFF]/30 text-[#C9A7FF] text-sm font-semibold mb-6 shadow-[0_0_20px_rgba(122,44,255,0.1)]">
+                    <i class="ph-fill ph-star text-[#FF2BD6]"></i>
+                    CultForge v2.0 is now live!
+                </div>
+
+                <h1 class="text-5xl md:text-7xl font-black leading-tight mb-6">
+                    The Ultimate <br />
+                    <span
+                        class="text-transparent bg-clip-text bg-gradient-to-r from-[#FF2BD6] via-[#7A2CFF] to-[#C9A7FF] drop-shadow-lg">
+                        Community-Based
+                    </span> <br />
+                    Minecraft Launcher.
+                </h1>
+
+                <p class="text-lg md:text-xl text-[#B8B6CC] mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                    Experience Minecraft like never before. Seamlessly manage modpacks, sync with friends, customize
+                    your HUD, and join the fastest-growing cult of crafters.
+                </p>
+
+                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                    <button
+                        class="download-btn relative group overflow-hidden rounded-xl font-bold text-[#F2F3FF] transition-all hover:scale-105 active:scale-95 w-full sm:w-auto text-lg">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] opacity-100 group-hover:opacity-80 transition-opacity">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] blur-lg opacity-50 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                        <div
+                            class="relative flex items-center justify-center gap-2 px-8 py-4 bg-[#1E1B2E]/20 hover:bg-transparent transition-colors">
+                            <i class="ph-bold ph-download text-xl"></i>
+                            <span class="btn-text">Download for Windows</span>
+                        </div>
+                    </button>
+
+                    <div class="flex gap-4">
+                        <button disabled
+                            class="p-4 cursor-not-allowed rounded-xl bg-[#1E1B2E] border border-[#141422] hover:border-[#7A2CFF]/50 text-[#B8B6CC] hover:text-[#F2F3FF] transition-all hover:-translate-y-1 group"
+                            title="Download for macOS">
+                            <i class="ph-fill ph-apple-logo text-2xl group-hover:text-[#C9A7FF] transition-colors"></i>
+                        </button>
+                        <button disabled
+                            class="p-4 cursor-not-allowed rounded-xl bg-[#1E1B2E] border border-[#141422] hover:border-[#7A2CFF]/50 text-[#B8B6CC] hover:text-[#F2F3FF] transition-all hover:-translate-y-1 group"
+                            title="Download for Linux">
+                            <i class="ph-bold ph-terminal text-2xl group-hover:text-[#C9A7FF] transition-colors"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <p class="mt-6 text-sm text-[#B8B6CC]/70 flex items-center justify-center lg:justify-start gap-2">
+                    <i class="ph-fill ph-shield-check"></i> Free, Secure & Open Source client.
+                </p>
+            </div>
+
+            <div class="flex-1 w-full max-w-lg lg:max-w-none relative mt-16 lg:mt-0 perspective-1000">
+
+                <div class="absolute -top-10 -left-10 w-16 h-16 animate-float rounded-xl bg-gradient-to-br from-[#FF2BD6] to-[#7A2CFF] shadow-[0_0_30px_rgba(122,44,255,0.4)] opacity-60 backdrop-blur-sm z-0"
+                    style="animation-delay: 0s;">
+                    <div class="absolute inset-1 bg-[#1E1B2E]/80 rounded-lg"></div>
+                </div>
+                <div class="absolute bottom-20 -right-5 w-20 h-20 animate-float rounded-xl bg-gradient-to-br from-[#7A2CFF] to-[#C9A7FF] shadow-[0_0_30px_rgba(122,44,255,0.4)] opacity-60 backdrop-blur-sm z-0"
+                    style="animation-delay: -1.5s;">
+                    <div class="absolute inset-1 bg-[#1E1B2E]/80 rounded-lg"></div>
+                </div>
+                <div class="absolute top-40 right-10 w-12 h-12 animate-float rounded-xl bg-gradient-to-br from-[#C9A7FF] to-[#FF2BD6] shadow-[0_0_30px_rgba(122,44,255,0.4)] opacity-60 backdrop-blur-sm z-0"
+                    style="animation-delay: -0.7s;">
+                    <div class="absolute inset-1 bg-[#1E1B2E]/80 rounded-lg"></div>
+                </div>
+
+                <div
+                    class="mockup-card relative z-10 w-full aspect-[4/3] rounded-2xl border border-[#7A2CFF]/30 bg-[#141422]/90 backdrop-blur-xl shadow-[0_20px_60px_rgba(122,44,255,0.3)] overflow-hidden group">
+                    <div class="h-10 bg-[#0B0B10] flex items-center px-4 gap-2 border-b border-[#1E1B2E]">
+                        <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
+                        <div class="mx-auto text-xs font-semibold text-[#B8B6CC]">CultForge Launcher</div>
+                    </div>
+
+                    <div class="p-6 flex flex-col h-[calc(100%-40px)] relative">
+                        <div
+                            class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMTg0LCAxODIsIDIwNCwgMC4xKSIvPjwvc3ZnPg==')] opacity-50">
+                        </div>
+
+                        <div class="flex justify-between items-center mb-6 relative z-10">
+                            <div class="text-xl font-bold">My Modpacks</div>
+                            <button
+                                class="bg-[#7A2CFF] text-white text-xs px-3 py-1.5 rounded-md hover:bg-[#FF2BD6] transition-colors">+
+                                New Instance</button>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4 relative z-10 flex-1">
+                            <div
+                                class="bg-[#1E1B2E] rounded-lg p-3 border border-[#7A2CFF]/20 group-hover:border-[#FF2BD6]/50 transition-colors flex flex-col justify-between">
+                                <div>
+                                    <div
+                                        class="w-full h-20 bg-[#0B0B10] rounded-md mb-3 flex items-center justify-center relative overflow-hidden">
+                                        <div
+                                            class="absolute inset-0 bg-gradient-to-br from-green-500/20 to-blue-500/20">
+                                        </div>
+                                        <i class="ph-fill ph-game-controller text-[#B8B6CC] text-3xl"></i>
+                                    </div>
+                                    <div class="font-semibold text-sm">RLCraft Survival</div>
+                                    <div class="text-xs text-[#B8B6CC] mt-1">1.12.2 • Forge</div>
+                                </div>
+                                <button
+                                    class="w-full mt-3 bg-[#141422] hover:bg-[#7A2CFF]/20 text-xs py-1.5 rounded text-center transition-colors">Play</button>
+                            </div>
+
+                            <div
+                                class="bg-[#1E1B2E] rounded-lg p-3 border border-[#7A2CFF]/20 flex flex-col justify-between">
+                                <div>
+                                    <div
+                                        class="w-full h-20 bg-[#0B0B10] rounded-md mb-3 flex items-center justify-center relative overflow-hidden">
+                                        <div
+                                            class="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-pink-500/20">
+                                        </div>
+                                        <i class="ph-fill ph-game-controller text-[#B8B6CC] text-3xl"></i>
+                                    </div>
+                                    <div class="font-semibold text-sm">All The Mods 9</div>
+                                    <div class="text-xs text-[#B8B6CC] mt-1">1.20.1 • NeoForge</div>
+                                </div>
+                                <button
+                                    class="w-full mt-3 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] text-xs py-1.5 rounded text-center text-white shadow-[0_0_10px_rgba(122,44,255,0.4)]">Updating...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="border-y border-[#1E1B2E] bg-[#141422]/50 backdrop-blur-sm relative z-10 mt-12 mb-24">
+            <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 divide-x divide-[#1E1B2E]">
+                <div class="flex flex-col items-center justify-center p-6">
+                    <h4
+                        class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FF2BD6] to-[#C9A7FF] mb-2 drop-shadow-[0_0_10px_rgba(255,43,214,0.3)]">
+                        100K+</h4>
+                    <p class="text-[#B8B6CC] font-medium tracking-wider uppercase text-sm">MODS [Modrinith]</p>
+                </div>
+                <div class="flex flex-col items-center justify-center p-6">
+                    <h4
+                        class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FF2BD6] to-[#C9A7FF] mb-2 drop-shadow-[0_0_10px_rgba(255,43,214,0.3)]">
+                        12,000</h4>
+                    <p class="text-[#B8B6CC] font-medium tracking-wider uppercase text-sm">Modpacks</p>
+                </div>
+                <div class="flex flex-col items-center justify-center p-6">
+                    <h4
+                        class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FF2BD6] to-[#C9A7FF] mb-2 drop-shadow-[0_0_10px_rgba(255,43,214,0.3)]">
+                        Boost</h4>
+                    <p class="text-[#B8B6CC] font-medium tracking-wider uppercase text-sm">FPS</p>
+                </div>
+                <div class="flex flex-col items-center justify-center p-6">
+                    <h4
+                        class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FF2BD6] to-[#C9A7FF] mb-2 drop-shadow-[0_0_10px_rgba(255,43,214,0.3)]">
+                        &lt; 10s</h4>
+                    <p class="text-[#B8B6CC] font-medium tracking-wider uppercase text-sm">Launch Time</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="max-w-7xl mx-auto px-6 mb-32 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-black mb-4">Why Choose <span
+                        class="text-transparent bg-clip-text bg-gradient-to-r from-[#7A2CFF] to-[#FF2BD6]">CultForge?</span>
+                </h2>
+                <p class="text-[#B8B6CC] max-w-2xl mx-auto text-lg">We stripped away the bloat and built a launcher
+                    designed for raw performance, absolute customization, and community sharing.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div
+                    class="group relative p-1 rounded-2xl bg-gradient-to-b from-[#1E1B2E] to-[#141422] hover:from-[#7A2CFF]/50 hover:to-[#FF2BD6]/50 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500 rounded-2xl">
+                    </div>
+                    <div class="relative h-full bg-[#1E1B2E] p-8 rounded-xl flex flex-col items-start z-10">
+                        <div
+                            class="p-3 rounded-lg bg-[#141422] border border-[#7A2CFF]/20 text-[#FF2BD6] mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
+                            <i class="ph-bold ph-lightning text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#F2F3FF] mb-3">Lightning Fast</h3>
+                        <p class="text-[#B8B6CC] leading-relaxed">Written in python backend with a lightweight UI.
+                            CultForge launches instances 30% faster than traditional launchers.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="group relative p-1 rounded-2xl bg-gradient-to-b from-[#1E1B2E] to-[#141422] hover:from-[#7A2CFF]/50 hover:to-[#FF2BD6]/50 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500 rounded-2xl">
+                    </div>
+                    <div class="relative h-full bg-[#1E1B2E] p-8 rounded-xl flex flex-col items-start z-10">
+                        <div
+                            class="p-3 rounded-lg bg-[#141422] border border-[#7A2CFF]/20 text-[#FF2BD6] mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
+                            <i class="ph-bold ph-users text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#F2F3FF] mb-3">Community Driven</h3>
+                        <p class="text-[#B8B6CC] leading-relaxed">Share your custom modpacks instantly via simple share
+                            codes. Download top-rated community configurations with one click.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="group relative p-1 rounded-2xl bg-gradient-to-b from-[#1E1B2E] to-[#141422] hover:from-[#7A2CFF]/50 hover:to-[#FF2BD6]/50 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500 rounded-2xl">
+                    </div>
+                    <div class="relative h-full bg-[#1E1B2E] p-8 rounded-xl flex flex-col items-start z-10">
+                        <div
+                            class="p-3 rounded-lg bg-[#141422] border border-[#7A2CFF]/20 text-[#FF2BD6] mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
+                            <i class="ph-bold ph-cpu text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#F2F3FF] mb-3">Auto-Optimization</h3>
+                        <p class="text-[#B8B6CC] leading-relaxed">Automatically allocates RAM and optimizes Java
+                            arguments based on your system specs and the selected modpack.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="group relative p-1 rounded-2xl bg-gradient-to-b from-[#1E1B2E] to-[#141422] hover:from-[#7A2CFF]/50 hover:to-[#FF2BD6]/50 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500 rounded-2xl">
+                    </div>
+                    <div class="relative h-full bg-[#1E1B2E] p-8 rounded-xl flex flex-col items-start z-10">
+                        <div
+                            class="p-3 rounded-lg bg-[#141422] border border-[#7A2CFF]/20 text-[#FF2BD6] mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
+                            <i class="ph-bold ph-globe text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#F2F3FF] mb-3">Server Sync</h3>
+                        <p class="text-[#B8B6CC] leading-relaxed">Connect directly to partnered servers. The launcher
+                            automatically downloads the required mods before joining.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="group relative p-1 rounded-2xl bg-gradient-to-b from-[#1E1B2E] to-[#141422] hover:from-[#7A2CFF]/50 hover:to-[#FF2BD6]/50 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500 rounded-2xl">
+                    </div>
+                    <div class="relative h-full bg-[#1E1B2E] p-8 rounded-xl flex flex-col items-start z-10">
+                        <div
+                            class="p-3 rounded-lg bg-[#141422] border border-[#7A2CFF]/20 text-[#FF2BD6] mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
+                            <i class="ph-bold ph-shield-check text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#F2F3FF] mb-3">Account Security</h3>
+                        <p class="text-[#B8B6CC] leading-relaxed">Microsoft authentication integrated safely. We never
+                            store your credentials. Open source transparency guarantees safety.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="group relative p-1 rounded-2xl bg-gradient-to-b from-[#1E1B2E] to-[#141422] hover:from-[#7A2CFF]/50 hover:to-[#FF2BD6]/50 transition-all duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500 rounded-2xl">
+                    </div>
+                    <div class="relative h-full bg-[#1E1B2E] p-8 rounded-xl flex flex-col items-start z-10">
+                        <div
+                            class="p-3 rounded-lg bg-[#141422] border border-[#7A2CFF]/20 text-[#FF2BD6] mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
+                            <i class="ph-bold ph-monitor text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#F2F3FF] mb-3">Modrinith API</h3>
+                        <p class="text-[#B8B6CC] leading-relaxed">Complete MOD, Resourcepack, Shader store powered by
+                            Modrinith</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="max-w-5xl mx-auto px-6 mb-20 relative z-10">
+
+            <div
+                class="relative rounded-3xl overflow-hidden bg-[#141422] border border-[#7A2CFF]/30 p-10 md:p-16 text-center shadow-[0_0_50px_rgba(122,44,255,0.15)]">
+                <div class="absolute inset-0 bg-gradient-to-br from-[#FF2BD6]/10 to-[#7A2CFF]/10 z-0"></div>
+
+                <div class="relative z-10">
+                    <h2 class="text-4xl font-black mb-6 text-[#F2F3FF]">Ready to join the Cult?</h2>
+                    <p class="text-xl text-[#B8B6CC] mb-10 max-w-2xl mx-auto">
+                        Stop fighting with broken Java installations and missing dependencies. Let CultForge handle the
+                        boring stuff so you can focus on building.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+                        <button
+                            class="download-btn relative group overflow-hidden rounded-xl font-bold text-[#F2F3FF] transition-all hover:scale-105 active:scale-95">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] opacity-100 group-hover:opacity-80 transition-opacity">
+                            </div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-r from-[#FF2BD6] to-[#7A2CFF] blur-lg opacity-50 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="relative flex items-center justify-center gap-2 px-8 py-4 bg-[#1E1B2E]/20 hover:bg-transparent transition-colors">
+                                <i class="ph-bold ph-download text-xl"></i>
+                                <span class="btn-text">Download CultForge</span>
+                            </div>
+                        </button>
+
+                        <a href="https://discord.gg/bUBbhV9x" target="_blank"
+                            class="flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-semibold text-[#F2F3FF] bg-[#1E1B2E] border border-[#7A2CFF]/30 hover:border-[#FF2BD6]/50 hover:bg-[#141422] transition-all hover:scale-105 active:scale-95 shadow-[0_0_15px_rgba(122,44,255,0.15)] hover:shadow-[0_0_20px_rgba(255,43,214,0.3)]">
+                            <i class="ph-bold ph-globe text-xl text-[#C9A7FF]"></i>
+                            Join the Discord
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- <div class="floating-btn pt-16 pb-8 z-999"> -->
+    <!-- <i class="ph-fill ph-discord-logo text-xl text-[#C9A7FF]"></i> -->
+    <!-- <iframe src="https://discord.com/widget?id=1200317178386333756&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
+    <!-- </div> -->
+
+    <footer class="bg-[#0B0B10] border-t border-[#1E1B2E] pt-16 pb-8 relative z-10">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+            <div class="md:col-span-1">
+                <div class="flex items-center gap-2 mb-4">
+                    <i class="ph-fill ph-game-controller text-[#FF2BD6] text-3xl"></i>
+                    <span class="text-xl font-black">Cult<span class="text-[#7A2CFF]">Forge</span></span>
+                </div>
+                <p class="text-[#B8B6CC] text-sm leading-relaxed mb-6">
+                    The ultimate community-based Minecraft launcher. Built by players, for players. Free and open source
+                    forever.
+                </p>
+            </div>
+
+            <div>
+                <h4 class="font-bold text-[#F2F3FF] mb-4">Downloads</h4>
+                <ul class="space-y-2 text-[#B8B6CC] text-sm">
+                    <li><a href="#" class="hover:text-[#FF2BD6] transition-colors">Windows Client</a></li>
+                    <!-- <li><a href="#" class="hover:text-[#FF2BD6] transition-colors">macOS Client</a></li> -->
+                    <!-- <li><a href="#" class="hover:text-[#FF2BD6] transition-colors">Linux (AppImage)</a></li> -->
+                    <li><a href="#" class="hover:text-[#FF2BD6] transition-colors">Source Code</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold text-[#F2F3FF] mb-4">Resources</h4>
+                <ul class="space-y-2 text-[#B8B6CC] text-sm">
+                    <li><a href="#" class="hover:text-[#7A2CFF] transition-colors">Documentation</a></li>
+                    <!-- <li><a href="#" class="hover:text-[#7A2CFF] transition-colors">Modpack Creator Guide</a></li> -->
+                    <!-- <li><a href="#" class="hover:text-[#7A2CFF] transition-colors">Theme Engine API</a></li> -->
+                    <!-- <li><a href="#" class="hover:text-[#7A2CFF] transition-colors">Support Center</a></li> -->
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold text-[#F2F3FF] mb-4">Community</h4>
+                <ul class="space-y-2 text-[#B8B6CC] text-sm">
+                    <li><a href="https://discord.gg/bUBbhV9x" target="_blank"
+                            class="hover:text-[#C9A7FF] transition-colors">Discord Server</a></li>
+                    <!-- <li><a href="#" class="hover:text-[#C9A7FF] transition-colors">Reddit Forum</a></li> -->
+                    <!-- <li><a href="#" class="hover:text-[#C9A7FF] transition-colors">Twitter / X</a></li> -->
+                    <!-- <li><a href="#" class="hover:text-[#C9A7FF] transition-colors">GitHub Repository</a></li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div
+            class="max-w-7xl mx-auto px-6 pt-8 border-t border-[#1E1B2E] flex flex-col md:flex-row items-center justify-between text-[#B8B6CC] text-xs">
+            <p id="copyright-year">© 2024 CultForge Contributors. Not affiliated with Mojang or Microsoft.</p>
+            <div class="flex gap-4 mt-4 md:mt-0">
+                <a href="#" class="hover:text-[#F2F3FF] transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-[#F2F3FF] transition-colors">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('copyright-year').textContent = `© ${new Date().getFullYear()} CultForge Contributors. Not affiliated with Mojang or Microsoft.`;
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                navbar.classList.add('bg-[#0B0B10]/90', 'backdrop-blur-md', 'border-b', 'border-[#1E1B2E]', 'shadow-lg', 'py-4');
+                navbar.classList.remove('bg-transparent', 'py-6');
+            } else {
+                navbar.classList.remove('bg-[#0B0B10]/90', 'backdrop-blur-md', 'border-b', 'border-[#1E1B2E]', 'shadow-lg', 'py-4');
+                navbar.classList.add('bg-transparent', 'py-6');
+            }
+        });
+
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuIcon = document.getElementById('menuIcon');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        function toggleMenu() {
+            mobileMenu.classList.toggle('hidden');
+            if (mobileMenu.classList.contains('hidden')) {
+                menuIcon.classList.replace('ph-x', 'ph-list');
+            } else {
+                menuIcon.classList.replace('ph-list', 'ph-x');
+            }
+        }
+
+        async function downloadClient() {
+            try {
+                const response = await fetch(`./global/config.json`)
+                const data = await response.json()
+                if (data.latest) {
+                    window.location.href = `./releases/${data.latest}`;
+                }
+            } catch (error) {
+                alert("Download failed");
+                console.error(`Download failed :\n${error}`);
+            }
+        }
+
+        menuBtn.addEventListener('click', toggleMenu);
+        mobileLinks.forEach(link => link.addEventListener('click', toggleMenu));
+
+        const downloadBtns = document.querySelectorAll('.download-btn');
+        downloadBtns.forEach(btn => {
+            btn.addEventListener('click', function () {
+                if (this.disabled) return;
+
+                const btnTextElement = this.querySelector('.btn-text');
+                const originalText = btnTextElement.innerText;
+                const iconElement = this.querySelector('i');
+                const originalIconClass = iconElement.className;
+
+                this.disabled = true;
+                btnTextElement.innerText = "Preparing...";
+                iconElement.className = "ph-bold ph-spinner animate-spin text-xl";
+
+                setTimeout(async () => {
+                    await downloadClient();
+                    this.disabled = false;
+                    btnTextElement.innerText = originalText;
+                    iconElement.className = originalIconClass;
+                }, 500);
+            });
+        });
+    </script>
+</body>
+
+</html>
