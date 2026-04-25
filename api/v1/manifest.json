@@ -35,15 +35,18 @@
         "builds" : {
             "aetherion-2.0" : {
                 "rec.alloc" : "10GB",
-                "base" : "Forge 1.20.1"
+                "base" : "Forge 1.20.1",
+                "desc" : "Lastest build"
             },
             "classic-v1" : {
                 "rec.alloc" : "8GB",
-                "base" : "Vanilla 1.21.8"
+                "base" : "Vanilla 1.21.8",
+                "desc" : "A legacy version of the classic minecraft"
             },
             "classic-v2" : {
                 "rec.alloc" : "8GB",
-                "base" :"Vanilla 1.21.11"
+                "base" :"Vanilla 1.21.11",
+                "desc" : "A new version of the classic minecraft"
             }
         }
     }
